@@ -24,7 +24,7 @@ gulp.task('sass', function() {
 gulp.task('build', function() {
   return browserify({ entries: './app/js/index.js' })
   .transform(babelify.configure({
-    presets: ['es2015'],
+    presets: ['es2015', 'react'],
     ignore: /node_modules/,
     plugins: ['transform-regenerator', 'transform-async-to-generator']
   }))

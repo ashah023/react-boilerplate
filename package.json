@@ -1,5 +1,5 @@
 {
-  "name": "fina-budget",
+  "name": "react-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,11 +9,14 @@
   "author": "Aqib Shah",
   "license": "ISC",
   "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-plugin-transform-regenerator": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "babelify": "^7.3.0",
     "browser-sync": "^2.18.13",
     "browserify": "^14.4.0",
